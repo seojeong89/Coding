@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.btn {
+  display: block;
+  font-size: 14px;
+  background: #454890;
+  width: 112px;
+  height: 32px;
+  border-radius: 32px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+
+/* header */
+.header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background: #000;
+  padding: 0 40px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header ul {
+  display: flex;
+  margin-right: 60px;
+}
+
+.header ul a {
+  display: block;
+  padding: 0 18px;
+  height: 64px;
+  line-height: 64px;
+}
+
+.header .logo {
+  margin-right: auto;
+}
+
+/* container */
+.container {
+ width: 1170px;
+ margin: 0 auto;
+}
+
+/* slide */
+.slide_container {
+  height: 700px;
+  background: url('../images/bg_01.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.slide_container .slide {
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.slide_container h2 { 
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.slide_container p {
+  font-size: 18px;
+  padding: 30px 0 36px;
+  line-height: 1.6;
+}
+
+.slide_btn {
+  display: block;
+  width: 200px;
+  height: 60px;
+  background: #454890;
+  line-height: 58px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 6px;
+} 
+
+/* content */
+.content {
+}
+
+/* section_01 */
+.sec_01 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 0 72px;
+}
+
+.sec_01 .container h4 {
+  font-size: 24px;
+  margin-bottom: 32px;
+
+}
+
+.sec_01 .avatar {
+  display: flex;
+}
+
+.sec_01 .avatar div {
+  margin: 0 20px;
+}
+
+/* section_02 */
+.sec_02 {
+  height: 600px;
+  background: url('../images/bg_02.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 135px 0;
+}
+
+.sec_02 .container {
+  background: red;
+  padding: 0 100px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section .text {
+  background: yellow;
+  width: 470px;
+}
+
+.section .text h4 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.section .text p.txt_01 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.section .text p.txt_02 {
+  font-size: 13px;
+  color: #666666;
+  margin-bottom: 30px;
+} 
+
+.sec_02 .text .avatar {
+  display: flex;
+  align-items: center;
+}
+
+.sec_02 .text .avatar img {
+  width: 40px;
+  margin-right: 14px;
+}
+
+.sec_02 .text .avatar span {
+  font-size: 14px;
+
+}
+
+.sec_02 .photo {
+  width: 470px;
+}
