@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img { 
+  display: block;
+}
+
+/* header */
+.header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header .logo {
+  margin-right: auto;
+}
+
+.header ul {
+  display: flex;
+  margin-right: 60px;
+  color: #F0F5F9;
+}
+
+.header ul a {
+  display: block;
+  padding: 0 24px;
+  height: 64px;
+  line-height: 64px;
+}
+
+.header .btn {
+  width: 112px;
+  height: 32px;
+  border-radius: 17px;
+  background: #454890;
+  font-size: 14px;
+  color: #F0F5F9;
+  text-align: center;
+  line-height: 30px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* slide */
+.slide {
+  background: url('../images/bg_01.jpg') no-repeat;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+}
