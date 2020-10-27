@@ -438,33 +438,33 @@ span {
   margin-bottom: 0;
 }
 
-.footer .right .bottom_menu{
+.right .bottom_menu{
   display: flex;
   padding-top: 140px;
 }
 
-.footer .right .bottom_menu > li {
+.right .bottom_menu > li {
   display: inline-block;
   padding-right: 124px;
 }
 
-.footer .right .bottom_menu > li:last-child {
+.right .bottom_menu > li:last-child {
   padding-right: 0;
 }
 
-.footer .right .bottom_menu > li > a{
+.right .bottom_menu > li > a{
   display: inline-block;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 52px;
 }
 
-.footer .right .bottom_menu ul li {
+.right .bottom_menu ul li {
   color: var(--font_3);
   padding-bottom: 30px;
 }
 
-.footer .right .bottom_menu ul li:last-child {
+.right .bottom_menu ul li:last-child {
   padding-bottom: 0px;
 }
 
