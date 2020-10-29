@@ -14,7 +14,7 @@
 
   <div class="container">
     <!-- header -->
-    <div class="container header">
+    <div class="header">
       <a href="#">
         <img src="./image/logo.jpg" alt="로고">
       </a>
@@ -36,21 +36,24 @@
 
     <!-- slide_01 -->
     <div class="slide slide_01">
-      <h2>
-        Galaxy tab 7 5G<br>런칭
-      </h2>
-      <span>
-        <div class="txt1">
+      <div class="txt1">
+        <h2>
+          Galaxy tab 7 5G<br>런칭
+        </h2>
+        <div class="box">
           <a href="#">
-            자세히 보기
+            <p>자세히 보기</p>
+          </a>
+          <a href="#">
+            <div class="btn1">
+              구매혜택보기
+            </div>
           </a>
         </div>
-        <a href="#">
-          <div class="btn1">
-            구매혜택보기
-          </div>
-        </a>
-      </span>
+      </div>
+      <div class="img">
+        <img src="./image/slide_bg.png" alt="사진">
+      </div>
     </div>
 
     <!-- section_01 -->
@@ -96,17 +99,19 @@
 
     <!-- slide_02-->
     <div class="slide slide_02">
-      <h2>
-        갤럭시 핏
-      </h2>
-      <p>수면, 심박수, 스트레스 등 다양한 데이터를 쉽게 확인하고<br>
-        파워풀 배터리로 걱정없이 오래 착용 할 수 있습니다.
-      </p>
-      <a href="#">
-        <div class="btn3">
-          구매혜택보기
-        </div>
-      </a>
+      <div class="box">
+        <h2>
+          갤럭시 핏
+        </h2>
+        <p>수면, 심박수, 스트레스 등 다양한 데이터를 쉽게 확인하고<br>
+          파워풀 배터리로 걱정없이 오래 착용 할 수 있습니다.
+        </p>
+        <a href="#">
+          <div class="btn3">
+            구매혜택보기
+          </div>
+        </a>
+      </div>
     </div>
 
     <!-- section_03 -->
@@ -144,65 +149,72 @@
         <h3>Galaxy</h3>
         <p>여러분의 이메일 주소를 보내주세요.<br>
           갤러시의 새로운 소식을 빠르고 간편하게 확인 할 수 있습니다.</p>
-
-        <div class="form">
-          <input class="input" type="email" placeholder="이메일 주소" />
-          <button class="btn4" type="submit">보내기</button>
+        <div class="box">
+          <input type="email" placeholder="이메일 주소">
+          <button>보내기</button>
         </div>
 
-        <a href="#">
-          <div class="store">
+
+        <div class="store">
+          <a href="#">
             <div class="apple">
               <i class="xi-apple"></i>
               <p>App Store</p>
             </div>
-        </a>
+          </a>
 
-        <a href="#">
-          <div class="google">
-            <img src="./image/google.png" alt="구글">
-            <p>Play Store</p>
-          </div>
-        </a>
+
+          <a href="#">
+            <div class="google">
+              <img src="./image/google.png" alt="구글">
+              <p>Play Store</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="social">
+          <a href="#"><i class="xi-twitter"></i></a>
+          <a href="#"><i class="xi-facebook-official"></i></a>
+          <a href="#"><i class="xi-linkedin-square"></i></a>
+        </div>
+
+        <p_2>Copyright © 2020 Galaxy All Rights Reserved.
+          </p>
+
       </div>
 
-      <div class="social">
-        <a href="#"><i class="xi-twitter"></i></a>
-        <a href="#"><i class="xi-facebook-official"></i></a>
-        <a href="#"><i class="xi-linkedin-square"></i></a>
-      </div>
+      <div class="right">
+        <ul class="bottom_menu">
+          <li>
+            <a href="#">기업정보</a>
+            <ul>
+              <li><a href="#">회사소개</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">제품 접근성</a></li>
+            </ul>
+          </li>
 
-      <div class="txt">
-        <p>Copyright © 2020 Galaxy All Rights Reserved.</p>
-      </div>
-    </div>
+          <li>
+            <a href="#">고객문의</a>
+            <ul>
+              <li><a href="#">서비스 센터 찾기</a></li>
+              <li><a href="#">디지털프라자</a></li>
+              <li><a href="#">이메일 상담</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </li>
 
-    <div class="right">
-      <ul class="bottom_menu">
-        <li><a href="#">기업정보</a>
-          <ul>
-            <li><a href="#">회사소개</a></li>
-            <li><a href="#">공지사항</a></li>
-            <li><a href="#">제품 접근성</a></li>
-          </ul>
-        </li>
-        <li><a href="#">고객문의</a>
-          <ul>
-            <li><a href="#">서비스 센터 찾기</a></li>
-            <li><a href="#">디지털프라자</a></li>
-            <li><a href="#">이메일 상담</a></li>
-            <li><a href="#">FAQ</a></li>
-          </ul>
-        </li>
-        <li><a href="#">제품소개</a>
-          <ul>
-            <li><a href="#">스마트폰</a></li>
-            <li><a href="#">태블릿</a></li>
-            <li><a href="#">워치</a></li>
-            <li><a href="#">버즈</a></li>
-          </ul>
-        </li>
-      </ul>
+          <li>
+            <a href="#">제품소개</a>
+            <ul>
+              <li><a href="#">스마트폰</a></li>
+              <li><a href="#">태블릿</a></li>
+              <li><a href="#">워치</a></li>
+              <li><a href="#">버즈</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
 
   </div>
