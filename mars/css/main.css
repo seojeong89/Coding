@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap");
+
+:root {
+  --primary: #333;
+  --accent: #fd7272;
+  --accent2: #38ada9;
+  --gray-dark: #5d5d5d;
+  --gray-mid: #808080;
+  --gray-light: #e0e0e0;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary);
+}
+
+/* global */
+section {
+  padding: 70px 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 92%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.go_top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  display: none;
+  z-index: 1000;
+}
+
+/* header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  transition: all 0.3s;
+}
+
+.header .container {
+  height: 80px;
+}
+
+.logo {
+  width: 228px;
+  margin-right: auto;
+}
+
+.hamburger {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: #fff;
+  margin: 6px 0;
+}
+
+.nav {
+  margin-right: 60px;
+}
+
+.nav a {
+  display: block;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.header.active {
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header.active .nav a {
+  color: var(--primary);
+}
+
+.header.active .hamburger span {
+  background: var(--primary);
+}
+
+/* main_slide_section */
+.main_slide {
+  position: relative;
+}
+
+/* slide_arrow */
+.arrow {
+  position: absolute;
+  width: 96%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow span {
+  display: inline-block;
+  width: 46px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* slide_01 */
+.slide_01 .item {
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slide_01 .item_01 {
+  background-image: url(../images/main/main_slide_01.jpg);
+}
+.slide_01 .item_02 {
+  background-image: url(../images/main/main_slide_02.jpg);
+}
+.slide_01 .item_03 {
+  background-image: url(../images/main/main_slide_03.jpg);
+}
+
+/* slick_custom */
+.main_slide .slick-dots {
+  bottom: 30px;
+}
+
+.main_slide .slick-dots li {
+  width: 50px;
+  height: 3px;
+  transition: width 0.3s;
+}
+
+.main_slide .slick-dots li.slick-active {
+  width: 120px;
+}
+
+.main_slide .slick-dots li button {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  opacity: 0.3;
+}
+
+.main_slide .slick-dots li.slick-active button {
+  opacity: 0.8;
+}
+
+.main_slide .slick-dots li button::before {
+  display: none;
+}
