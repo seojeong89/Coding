@@ -1,4 +1,15 @@
 $(function () {
+  // Mobile All menu
+  var menu = $(".menu_list > li > a");
+  menu.click(function () {
+    var subMenu = $(this).next("ul");
+    if (subMenu.is(":visible")) {
+      subMenu.slideUp();
+    } else {
+      subMenu.slideDown();
+    }
+  });
+
   // All menu
   var hamburger = $(".hamburger");
   var close = $(".menu .close");
